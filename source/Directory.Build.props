@@ -1,0 +1,38 @@
+<Project>
+  <PropertyGroup>
+    <PackOnBuild>true</PackOnBuild>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IsPackable>true</IsPackable>
+
+    <!-- 
+    put the package output into a nuget test folder 
+    -->
+    <PackageOutputPath>../../output</PackageOutputPath>
+
+    <VersionPrefix>1.8.1</VersionPrefix>
+    <!--
+    VersionSuffix - For debugging and local nuget feed 
+    -->        
+    <VersionSuffix>alpha-$([System.DateTime]::Now.ToString('yyyyMMddHHmm'))</VersionSuffix>
+    <PackageVersion>$(Version)</PackageVersion>
+
+    <Owners>HolisticWare, moljac</Owners>
+    <Authors>HolisticWare, moljac</Authors>
+    <Copyright>2025</Copyright>
+    <license>LICENSE</license>
+    <ProjectUrl>
+        https://github.com/HolisticWare/HolisticWare.Core.Graphics.DebuggerVisualizer
+    </ProjectUrl>
+    <PackageProjectUrl>
+        https://github.com/HolisticWare/HolisticWare.Core.Graphics.DebuggerVisualizer
+    </PackageProjectUrl>
+    <RepositoryUrl>
+        https://github.com/HolisticWare/HolisticWare.Core.Graphics.DebuggerVisualizer
+    </RepositoryUrl>
+    <iconUrl>
+        https://secure.gravatar.com/avatar/b662959e712466f393541935b664d3c5
+    </iconUrl>
+
+  </PropertyGroup>
+
+</Project>
