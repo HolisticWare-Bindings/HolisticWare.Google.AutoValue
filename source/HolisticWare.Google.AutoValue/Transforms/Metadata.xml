@@ -6,4 +6,58 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+
+  <!--
+  versoins 1.10.2+
+  -->
+  <remove-node
+    path="/api/package[@name='autovalue.shaded.kotlinx.metadata']/class[@name='KmAnnotationArgument']"
+    />
+  <remove-node
+    path="/api/package[@name='autovalue.shaded.kotlinx.metadata.jvm.internal']"
+    />
+  <remove-node
+    path="/api/package[@name='autovalue.shaded.kotlinx.metadata.internal.metadata']"
+    />
+  <remove-node
+    path="/api/package[@name='autovalue.shaded.com.google.common.collect']/class[@name='LinkedListMultimap']"
+    />
+  <remove-node
+    path="/api/package[@name='autovalue.shaded.kotlinx.metadata']/class[@name='KmClass']"
+    />
+  <remove-node
+    path="/api/package[@name='autovalue.shaded.kotlinx.metadata']/class[@name='KmClassVisitor']"
+    />
+  <remove-node
+    path="/api/package[@name='autovalue.shaded.kotlinx.metadata.internal']/class[@name='PackageWriter']"
+    />
+  <remove-node
+    path="/api/package[@name='autovalue.shaded.kotlin.reflect']/interface[@name='KProperty2']"
+    />
+  <remove-node
+    path="/api/package[@name='autovalue.shaded.kotlin.reflect']/interface[@name='KProperty2']"
+    />
+  <remove-node
+    path="/api/package[@name='autovalue.shaded.kotlinx.metadata.internal.protobuf']/class[@name='UnmodifiableLazyStringList']"
+    />
+  <remove-node
+    path="/api/package[@name='autovalue.shaded.kotlinx.metadata.internal.protobuf']/class[@name='GeneratedMessageLite']"
+    />
+  <remove-node
+    path="/api/package[@name='autovalue.shaded.kotlinx.metadata.internal.protobuf']/class[@name='LazyStringArrayList']"  
+    />
+  <remove-node
+    path="/api/package[@name='autovalue.shaded.kotlin.collections']/class[@name='BooleanIterator']"
+    />
+  <!--
+  <remove-node
+    path="/api/package/class[@annotated-visibility='module-info']"
+    />
+  <remove-node
+    path="/api/package/interface[@annotated-visibility='module-info']"
+    />
+  <remove-node
+    path="//*[@annotated-visibility='module-info']"
+    />
+  -->    
 </metadata>
