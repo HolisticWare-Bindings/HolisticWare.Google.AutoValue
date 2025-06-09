@@ -15,7 +15,7 @@
     -->
   </PropertyGroup>
   <PropertyGroup>
-    <VersionPrefix>1.8.1</VersionPrefix>
+    <VersionPrefix>1.8.2</VersionPrefix>
     <!--
     VersionSuffix - For debugging and local nuget feed 
     <VersionSuffix>alpha-$([System.DateTime]::Now.ToString('yyyyMMddHHmm'))</VersionSuffix>
