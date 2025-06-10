@@ -1,11 +1,10 @@
 <Project>
   <PropertyGroup>
+    <ErrorLog>obj/$(MSBuildProjectName).sarif</ErrorLog>
+
     <PackOnBuild>true</PackOnBuild>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IsPackable>true</IsPackable>
-
-    <ErrorLog>obj/$(MSBuildProjectName).sarif</ErrorLog>
-
     <!-- 
     put the package output into a nuget test folder 
     -->
